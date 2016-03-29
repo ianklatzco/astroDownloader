@@ -42,17 +42,3 @@ while nextPage:
 elapsed_time = time.time() - start_time
 print (str(elapsed_time/60)+" minutes elapsed")
 print('\a\a\a\a\a\a')
-
-# pageNested = requests.get(pagePaths[i])
-# treeNested = html.fromstring(pageNested.content)
-
-
-# length = len(pagePaths)
-# for i,length in enumerate(pagePaths):
-#     pageNested = requests.get(pagePaths[i])
-#     treeNested = html.fromstring(pageNested.content)
-
-#     songPathNext = tree.xpath('//*[@id="audio1"]/@src')
-#     links.write(songPathNext[0]+'\n')
-
-# for x in y === for index,x in enumerate y
