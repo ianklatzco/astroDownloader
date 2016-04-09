@@ -1,11 +1,11 @@
-#ian klatzco and abhishek banerjee
+#ian klatzco and abhishek banerjee, help from tana wattanawaroon
 
 import time
 import datetime
 
 at = 'at'
 greg = "greg."
-longForm  = "Jul."
+longForm  = "Jul.Cal."
 parsedDates = []
 parsedDatesTimes = []
 datesTimes = []
@@ -14,6 +14,20 @@ date = ''
 datesListWithTimes = []
 datesListWithNoTimes = []
 i=1
+
+def checkLeapYearAndWriteNoTime():
+    if ((dateObject[0] % 4 == 0) and (dateObject[7] >= 60)):
+        datesListWithNoTimes.append(dateObject[7]-1)
+    else:
+        datesListWithNoTimes.append(dateObject[7])
+
+def checkLeapYearAndWriteTime():
+    if ((dateObject[0] % 4 == 0) and (dateObject[7] >= 60)):
+        datesListWithTimes.append(dateObject[7]-1 + float(dateObject[3])/24 + float(dateObject[4])/24/60)
+    else:
+        datesListWithTimes.append(dateObject[7] + float(dateObject[3])/24 + float(dateObject[4])/24/60)
+
+
 
 with open("dates.txt","r") as in_file:
     dates = [x.strip() for x in in_file.readlines()]
@@ -25,8 +39,7 @@ with open("dates.txt","r") as in_file:
         datesNoTimes.append(x)
 
 
-
-
+    # parse data set containing times
     for x in datesTimes:
         # parse gregorian cases
         try:
@@ -48,18 +61,15 @@ with open("dates.txt","r") as in_file:
             except ValueError:
                 dateObject = time.strptime(date,"%d %B %Y at %H:%M:%S")
 
-            if ((dateObject[0] % 4 == 0) and (dateObject[7] >= 60)):
-                datesListWithTimes.append(dateObject[7]-1 + float(dateObject[3])/24 + float(dateObject[4])/24/60)
-            else:
-                datesListWithTimes.append(dateObject[7] + float(dateObject[3])/24 + float(dateObject[4])/24/60)
+            checkLeapYearAndWriteTime()
 
         except:
-            print 'failed to parse a date #'+str(i)
+            print 'failed: date #'+str(i)
             i += 1
             pass
 
 
-
+    # parse full data set, including those w/o time
     for x in datesNoTimes:
         #parse gregorian cases
         try:
@@ -78,10 +88,8 @@ with open("dates.txt","r") as in_file:
             except ValueError:
                 dateObject = time.strptime(date,"%d %b %Y")
 
-            if ((dateObject[0] % 4 == 0) and (dateObject[7] >= 60)):
-                datesListWithNoTimes.append(dateObject[7]-1)
-            else:
-                datesListWithNoTimes.append(dateObject[7])
+            checkLeapYearAndWriteNoTime()
+
         except:
             print 'failed: date #'+str(i)
             i += 1
