@@ -543,7 +543,6 @@
  2 November 1949 at 23:20  
  1 March 1892 at 08:00  
  13 September 1995 at 13:16  
- 4 September 973 Jul.Cal. at 05:05  
  9 October 1898 at 04:00  
  18 January 1962
  19 November 1954
@@ -2046,7 +2045,6 @@
  24 July 1952 at 03:55  
  4 November 1847 at 13:25  
  31 July 1526 Jul.Cal. (10 Aug 1526 greg.) at 05:00  
- 23 September 63 BC (-62) Jul.Cal. at 05:40  
  27 January 1773 at 05:50  
  19 May 1724 Jul.Cal. (30 May 1724 greg.) at 13:00  
  18 November 1568 Jul.Cal. (28 Nov 1568 greg.) at 09:00  
@@ -7187,7 +7185,6 @@
  15 February 1920 at 22:00  
  6 June 1962 at 11:18  
  26 April 1917 at 21:00  
- 14 March 303 (greg.) at 23:00  
  8 September 1922
  23 January 1973 at 03:00  
  21 October 1953 at 03:49  
@@ -7642,7 +7639,6 @@
  9 March 1928 at 23:00  
  10 October 1932 at 17:45  
  8 June 1924 at 10:30  
- 18 May 25 CE Jul.Cal. at 19:05  
  7 July 1924 at 11:20  
  15 April 1938 at 06:30  
  7 July 1924 at 11:20  
@@ -8686,7 +8682,6 @@
  11 November 1887 at 22:30  
  17 August 1887 at 09:50  
  19 November 1600 Jul.Cal. (29 Nov 1600 greg.) at 23:00  
- 2 April 742 Jul.Cal.
  29 May 1630 Jul.Cal. (8 June 1630 greg.) at 11:25  
  14 May 1316 Jul.Cal. (22 May 1316 greg.) at 05:00  
  27 June 1550 Jul.Cal. (7 July 1550 greg.) at 05:15  
@@ -19849,8 +19844,6 @@
  15 February 1940 at 02:04  
  20 December 1871 at 02:30  
  21 February 1922 at 14:30  
- 24 January 76 CE Jul.Cal.
- 24 January 76 CE Jul.Cal.
  26 January 1902 at 14:55  
  6 November 1931 at 16:20  
  14 May 1925 at 17:00  
@@ -20866,7 +20859,6 @@
  29 May 1736
  19 July 1663 Jul.Cal. (29 July 1663 greg.) at 03:00  
  5 March 1133 Jul.Cal. (12 Mar 1133 greg.)
- 1 October 1207 Jul.Cal.
  5 January 1425 Jul.Cal. (14 Jan 1425 greg.) at 02:30  
  3 April 1367 Jul.Cal. (11 Apr 1367 greg.)
  1 January 1511 Jul.Cal. (11 Jan 1511 greg.) at 08:09  
@@ -21291,7 +21283,6 @@
  24 December 1818 at 22:00  
  5 October 2000 at 15:35  
  15 June 1389 Jul.Cal. (23 June 1389 greg.) at 06:00  
- 25 June 841 Jul.Cal. at 08:00  
  1 May 1851 at 09:03  
  7 September 1940 at 20:10  
  24 December 1818 at 22:00  
@@ -41957,7 +41948,6 @@
  25 October 1910 at 16:20  
  2 September 1939
  9 June 1785
- 25 June 841 Jul.Cal. at 08:00  
  22 January 1440 Jul.Cal. (31 Jan 1440 greg.)
  25 December 1984 at 09:00  
  14 September 1894 at 03:00  
@@ -46482,11 +46472,6 @@
  14 December 1895 at 11:00  
  6 September 1958 at 07:15  
  23 January 1969 at 02:40  
- 22 May 1917 at 18:00  
- 9 December 1946 at 01:00  
- 3 September 1924 at 04:00  
- 21 March 1928 at 09:00  
- 9 September 1990 at 15:37  
  26 June 1989 at 04:57  
  4 February 1913 at 10:00  
  21 February 1943 at 21:00  
