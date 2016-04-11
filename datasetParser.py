@@ -1,4 +1,5 @@
 #ian klatzco and abhishek banerjee, help from tana wattanawaroon
+#some dates are double-writing, see comment ln 59
 
 import time
 import datetime
@@ -55,7 +56,7 @@ with open("dates.txt","r") as in_file:
 
             try:
                 try:
-                    dateObject = time.strptime(date,"%d %B %Y at %H:%M")
+                    dateObject = time.strptime(date,"%d %B %Y at %H:%M") #something is double-writing, my guess is here
                 except ValueError:
                     dateObject = time.strptime(date,"%d %b %Y at %H:%M")
             except ValueError:
@@ -78,7 +79,7 @@ with open("dates.txt","r") as in_file:
                 date = date[4][1:]+' '+date[5]+ ' ' + date[6]
             elif(greg in x):
                 date = x.split()
-                date = date[0] + ' ' + date[1]+ ' ' + date[2]
+                date = date[0] + ' ' + date[1]+ ' ' + date[2] #potentially prettier method of formatting: '%s %s %s'.format(date[0], date[1], date[2])
             else:
                 date = x.split()
                 date = date[0] + ' ' + date[1]+ ' ' + date[2]
