@@ -7,3 +7,4 @@ with open('daysSetNoTimes.txt', 'r') as infile:
         print str(x) + ':' + str(dates.count(str(x)))
     print( 'Largest collision: ' + str(max(datesList)) + ' : paste output into text file and cmd F to find the date')
     print("#lazycoderislazy")
+    print sum(datesList)/len(datesList)
