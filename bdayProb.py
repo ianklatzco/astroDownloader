@@ -42,7 +42,7 @@ def checkForCollisions(arr):
 		return False
 	for i in range(len(arr)-1):
 		cur = arr[i]
-		if(i in arr[i+1:]):
+		if(cur in arr[i+1:]):
 			return True
 	return False
 	
@@ -70,7 +70,7 @@ def process(fname,size=-1):
 	
 	max_sample = 101
 	real_p = [calcP(x) for x in range(max_sample)]
-	data_p = [trialP(data_arr,x) for x in range(max_sample)]
+	data_p = [trialP(data_arr,x,100) for x in range(max_sample)]
 	plt.plot(range(max_sample), real_p, label='Real Probability')
 	plt.plot(range(max_sample), data_p, label='Experimental Probability:\n100 Trials per Sample Size')
 	plt.legend(loc='best')
